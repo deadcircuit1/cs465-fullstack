@@ -36,7 +36,7 @@ export class TripListingComponent implements OnInit {
     this.router.navigate(['add-trip']);
   }
 
-  private getStuff(): void {
+  public getStuff(): void {
     this.tripDataService.getTrips()
       .subscribe({
         next: (value: any) => {

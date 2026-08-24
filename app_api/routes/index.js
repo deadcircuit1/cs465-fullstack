@@ -57,11 +57,6 @@ router
 router
     .route('/trips/:tripCode')
     .get(tripsController.tripsFindByCode)
-    .put(authenticateJWT, tripsController.tripsUpdateTrip);
-
-router
-    .route('/trips/:tripCode')
-    .get(tripsController.tripsFindByCode)
     .put(authenticateJWT, tripsController.tripsUpdateTrip)
     .delete(authenticateJWT, tripsController.tripsDeleteTrip);
 
