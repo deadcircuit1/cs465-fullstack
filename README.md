@@ -5,6 +5,7 @@
 A full stack MEAN application built for CS-465. The customer facing site is server rendered with Express and Handlebars, the admin side is an Angular single page application, and both are backed by a shared RESTful API over MongoDB with JWT protected routes.
 
 **Stack:** MongoDB / Mongoose, Express, Angular, Node.js
+
 **Structure:** `app_server` (Handlebars customer site), `app_api` (REST API), `app_admin` (Angular SPA)
 
 ## Architecture
